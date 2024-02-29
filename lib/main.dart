@@ -49,7 +49,7 @@ class MyApp extends StatelessWidget {
         ),
       ],
       child: MaterialApp(
-        title: 'Flutter Demo',
+        title: 'Flutter Bloc example',
         //themeMode: ThemeMode.dark,
         theme: ThemeData(
           // brightness: Brightness.dark,
