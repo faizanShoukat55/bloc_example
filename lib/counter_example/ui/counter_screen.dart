@@ -33,7 +33,7 @@ class _CounterScreenState extends State<CounterScreen> {
           ),
           BlocBuilder<CounterBloc, CounterState>(
             builder: (context, state) {
-              return Center(child: Text("${state.counter}",style: const TextStyle(fontSize: 20,fontWeight: FontWeight.bold),));
+              return Center(child: Text("${state.counter.value}",style: const TextStyle(fontSize: 20,fontWeight: FontWeight.bold),));
             },
           ),
           const SizedBox(
